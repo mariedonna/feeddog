@@ -1,0 +1,258 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+.background {
+    background-color: #334359;
+}
+.menu{
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    font-family: roboto;
+     color:white;
+     text-transform: uppercase;
+     font-size: 1 rem;
+     margin: 1rem;
+}
+.nosotros{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    color:black;
+    margin: 1rem;
+}
+.negro{
+    color:black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu {
+    margin: 2rem;
+    padding-top: 2rem;
+}
+.banner{
+    display:flex;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+
+.logo{
+    width: 500px;
+    margin-bottom: 30px;
+
+}
+
+.perro-solo{
+    height: 500px ;
+    margin-left: 2rem;
+  
+   
+}
+.footer{
+    background-color: #334359; 
+}
+.pie-pagina{
+    font-family: roboto;
+    background-color: #334359;
+    color: white; 
+    padding-top: 2rem;
+    
+    
+}
+.redes-sociales{
+    width: 2rem;
+    margin-left: 1rem;
+}
+.redes-sociales-fb{
+    width: 1.5rem;
+    margin-left: 1rem;
+}
+/*.pie{
+    background-color:  #334359;
+    display: flex;
+    flex-direction: row;
+}*/
+
+.copyright{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    background-color: #334359;
+   text-align: right;
+   margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+.product_img{
+    width: 200px;
+}
+.columnas{
+    display:flex;
+    flex-direction: row;
+    margin-left:2rem ;
+    margin-right: 2rem;
+    text-align: center;
+    gap:1rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.parrafo-col{
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.parrafo-chico{
+    font-family: roboto;
+    font-size:12px;
+}
+
+.columna1{
+    background-color: white;
+    border: 1px solid rgb(149, 145, 145);
+    border-radius: 5px;
+} 
+.imagen-1{
+    width: 300px;
+    padding:1rem;
+}
+.columna2{
+    background-color: white;
+    border: 1px solid rgb(149, 145, 145);
+    border-radius: 5px;
+}
+.map{
+    width: 300px;
+    height: 200px;
+    padding:1rem;
+}
+.columna3{
+    background-color: white;
+    border: 1px solid rgb(149, 145, 145);
+    border-radius: 5px;
+    margin-right: 2rem;
+}
+.imagen-3{
+    width: 300px;
+    padding: 1rem;
+}
+.tituloProductos{
+    font-family: roboto;
+    color:white;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.products{
+    display:flex;
+    flex-direction: row;
+    gap:1rem;
+    flex-wrap: wrap;
+    
+}
+.articuloPrincipal{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+
+}
+.discount{
+    font-family: roboto;
+    margin-left: 5px;   
+}
+.price{
+    font-family: roboto;
+    margin-left: 5px;
+    font-weight:bold ;
+    
+}
+.description{
+    font-family: roboto;
+    color: rgb(13, 121, 121); 
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.description:hover{
+    color:black;
+}
+
+.articulo{
+    display:flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.leyenda{
+    font-family: roboto;
+    color: white;
+}
+.imagen-perro-gato{
+    width: 500px;
+}
+.titulo{
+    font-family: roboto;
+    color:white;
+    margin-left: 2rem;
+}
+.contacto{
+    display:flex;
+    flex-direction: row;
+    /*gap:5rem;*/
+    justify-content: center;
+}
+.telefono{
+    font-family: roboto;
+    margin-left: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+    color:white;
+}
+.final{
+    margin-bottom: 2rem;
+    color:white;
+}
+.register{
+    padding-top: 2rem;
+
+}
+.registro{
+    width: 200px;
+}
+/*@media (max-widht:800){
+
+}*/
+@media (max-width:400px){
+    .menu{
+        font-size: 12px;
+    }
+.nosotros{
+    font-size: 12px;
+}
+.copyright{
+    font-size: 12px;
+}
+.leyenda{
+    font-size:12px;
+   
+    
+}
+} 
+
+/*@media (min-widht: 320px) and (max-widht:500px){
+
+}*/
+
