@@ -185,20 +185,46 @@ a {
 .description:hover{
     color:black;
 }
+.articulo1{
+    padding:2rem 1.5rem;
+    display:flex;
+    flex-direction: column;
+    gap:3rem;
+}
 
-.articulo{
+.intro{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+   
+  
+}
+
+/*.intro{
     display:flex;
     flex-direction: row;
     gap: 1rem;
     margin-left: 2rem;
     margin-right: 2rem;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+   
+}
+.intro_info{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+}*/
+
+.perro-articulo{
+    max-width: 100%;
+    
 }
 .leyenda{
     font-family: roboto;
     color: white;
+    font-size: 2rem;
+    line-height:1.8;
 }
 .imagen-perro-gato{
     width: 500px;
