@@ -53,6 +53,7 @@ a {
 .perro-solo{
     height: 500px ;
     margin-left: 2rem;
+    margin-top: 2rem;
   
    
 }
@@ -91,7 +92,8 @@ a {
   margin-bottom: 2rem;
 }
 .product_img{
-    width: 200px;
+    width: 250px;
+
 }
 .columnas{
     display:flex;
@@ -113,6 +115,8 @@ a {
 .parrafo-chico{
     font-family: roboto;
     font-size:12px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .columna1{
@@ -157,11 +161,14 @@ a {
     flex-wrap: wrap;
     
 }
+.tituloProductos{
+    margin-top: 2rem;
+}
 .articuloPrincipal{
     background-color: white;
     border: 1px solid white;
     border-radius: 5px;
-    
+    margin-left: 2rem;
 
 }
 .discount{
@@ -181,6 +188,8 @@ a {
     text-transform: uppercase;
     font-weight: bold;
     transition: 0.5s;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .description:hover{
     color:black;
@@ -274,9 +283,34 @@ a {
 .leyenda{
     font-size:12px;
    
-    
+   
 }
 } 
+@media (max-width:800px){
+.intro{
+    display:flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    flex-wrap: wrap;
+   
+}
+.intro_info{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    
+}
+.leyenda{
+    font-size: 12px;
+}
+.copyright{
+    font-size: 12px;
+}
+}
+
 
 /*@media (min-widht: 320px) and (max-widht:500px){
 
