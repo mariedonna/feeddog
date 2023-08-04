@@ -109,6 +109,8 @@ a {
     align-items: center;
     flex-wrap: wrap;
 }
+
+
 .parrafo-col{
     font-family: roboto;
     font-size: 16px;
@@ -127,6 +129,9 @@ a {
     border: 1px solid rgb(149, 145, 145);
     border-radius: 5px;
 } 
+.columna1:hover{
+    transform: scale(1) ;
+}
 .imagen-1{
     width: 300px;
     padding:1rem;
@@ -285,8 +290,10 @@ a {
 }
 .leyenda{
     font-size:12px;
-   
-   
+     
+}
+.imagen-perro-gato{
+    width: 250px;
 }
 } 
 @media (max-width:800px){
@@ -311,6 +318,9 @@ a {
 }
 .copyright{
     font-size: 12px;
+}
+.imagen-perro-gato{
+    width: 250px;
 }
 }
 
