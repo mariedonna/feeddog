@@ -295,6 +295,10 @@ a {
 .imagen-perro-gato{
     width: 250px;
 }
+.perro-solo{
+    width: 250px;
+    height: 200px;
+}
 } 
 @media (max-width:800px){
 .intro{
