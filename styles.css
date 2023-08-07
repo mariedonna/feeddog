@@ -268,8 +268,11 @@ a {
     color:white;
 }
 .register{
+    padding-left: 2rem;
     padding-top: 2rem;
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .registro{
     width: 200px;
