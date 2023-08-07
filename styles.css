@@ -271,11 +271,14 @@ a {
     padding-left: 2rem;
     padding-top: 2rem;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction:row;
+    
 }
 .registro{
     width: 200px;
+    display: flex;
+    flex-direction: column;
+    
 }
 /*@media (max-widht:800){
 
@@ -305,6 +308,13 @@ a {
     width: 250px;
     margin-bottom: 30px;
 
+}
+.register{
+    padding-left: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    
 }
 } 
 @media (max-width:800px){
