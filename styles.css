@@ -299,7 +299,12 @@ a {
 }
 .perro-solo{
     width: 250px;
-    height: 200px;
+    height: 180px;
+}
+.logo{
+    width: 250px;
+    margin-bottom: 30px;
+
 }
 } 
 @media (max-width:800px){
