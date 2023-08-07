@@ -1,0 +1,28 @@
+@import "../partials/variables";
+@import "../partials/reset";
+@import "../partials/header";
+@import "../partials/footer";
+
+main {
+
+.banner{
+    display:flex;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.logo{
+    width: 500px;
+    margin-bottom: 30px;
+
+}
+
+.perro-solo{
+    height: 500px ;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+}
