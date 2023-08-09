@@ -122,4 +122,127 @@ main {
 
 }
 
+.tituloProductos{
+    font-family: roboto;
+    color:white;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.products{
+    display:flex;
+    flex-direction: row;
+    gap:1rem;
+    flex-wrap: wrap;
+
+    .articuloPrincipal{
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        margin-left: 2rem;
+         
+        .product_img{
+            width: 250px;
+        
+        }
+        .discount{
+            font-family: roboto;
+            margin-left: 5px;   
+        }
+        .price{
+            font-family: roboto;
+            margin-left: 5px;
+            font-weight:bold ;
+            
+        }
+        .description{
+            font-family: roboto;
+            color: rgb(13, 121, 121); 
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: 0.5s;
+            margin-left: 5px;
+            margin-right: 5px;
+
+             &:hover{
+                color:black;
+            }
+        }
+
+    }   
+    
+}
+.articulo1{
+    padding:2rem 1.5rem;
+    display:flex;
+    flex-direction: column;
+    gap:3rem;
+
+    .intro{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+         
+        .perro-articulo{
+            max-width: 100%;
+            
+        }
+
+    }
+   .intro_info{
+    .leyenda{
+        font-family: roboto;
+        color: white;
+        font-size: 2rem;
+        line-height:1.8;
+    }
+       
+   }
+}
+.titulo{
+    font-family: roboto;
+    color:white;
+    margin-left: 2rem;
+}
+.register{
+    padding-left: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction:row;
+
+    .contacto{
+        display:flex;
+        flex-direction: row;
+        /*gap:5rem;*/
+        justify-content: center;
+    }
+.imagen-contacto{
+    .imagen-perro-gato{
+        width: 500px;
+    }
+    
+    .telefono{
+        font-family: roboto;
+        margin-left: 2rem;
+        text-align: center;
+        padding-top: 1rem;
+        color:white;
+    }
+    .final{
+        margin-bottom: 2rem;
+        color:white;
+    }
+
+}
+.registro{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    
+}
+    
+}
+
 
