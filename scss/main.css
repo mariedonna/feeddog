@@ -83,7 +83,8 @@ main .perro-solo {
   border-radius: 5px;
 }
 .columnas .columna1:hover {
-  transform: scale(1.4);
+  transform: scale(1.1);
+  transition: 0.4s;
 }
 .columnas .columna1 .imagen-1 {
   width: 300px;
@@ -105,6 +106,10 @@ main .perro-solo {
   background-color: white;
   border: 1px solid rgb(149, 145, 145);
   border-radius: 5px;
+}
+.columnas .columna2:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
 }
 .columnas .columna2 .map {
   width: 300px;
@@ -128,6 +133,10 @@ main .perro-solo {
   border: 1px solid rgb(149, 145, 145);
   border-radius: 5px;
   margin-right: 2rem;
+}
+.columnas .columna3:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
 }
 .columnas .columna3 .imagen-3 {
   width: 300px;
