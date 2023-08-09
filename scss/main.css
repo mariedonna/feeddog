@@ -83,7 +83,7 @@ main .perro-solo {
   border-radius: 5px;
 }
 .columnas .columna1:hover {
-  transform: scale(1);
+  transform: scale(1.4);
 }
 .columnas .columna1 .imagen-1 {
   width: 300px;
