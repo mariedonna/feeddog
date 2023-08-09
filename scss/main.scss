@@ -2,6 +2,7 @@
 @import "../partials/reset";
 @import "../partials/header";
 @import "../partials/footer";
+@import "../partials/mq"
 
 .background {
     background-color:$maincolor;
@@ -244,5 +245,6 @@ main {
 }
     
 }
+
 
 
