@@ -1,8 +1,6 @@
-@import "../partials/variables";
-@import "../partials/reset";
-@import "../partials/header";
-@import "../partials/footer";
-@import "../partials/mq"
+
+
+
 
 .background {
     background-color:$maincolor;
@@ -55,6 +53,7 @@ main {
         &:hover {
             transform: scale(1) ;
         }
+
         .imagen-1{
             width: 300px;
             padding:1rem;
