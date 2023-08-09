@@ -1,5 +1,8 @@
 
-
+@import "../scss/partials/variables";
+@import "../scss/partials/reset";
+@import "../scss/partials/header";
+@import "../scss/partials/footer";
 
 
 .background {
@@ -246,4 +249,5 @@ main {
 }
 
 
+@import "../scss/partials/mq";
 
