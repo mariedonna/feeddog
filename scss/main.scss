@@ -38,6 +38,10 @@ main {
     margin: 1rem;
 }
 .columnas{
+  -webkit-animation:slide-in-fwd-center .4s cubic-bezier(.25,.46,.45,.94) both;
+  animation:slide-in-fwd-center .4s cubic-bezier(.25,.46,.45,.94) both;
+
+
     display:flex;
     flex-direction: row;
     margin-left:2rem ;
@@ -54,10 +58,10 @@ main {
         border: 1px solid rgb(149, 145, 145);
         border-radius: 5px;
 
-        &:hover {
+       /* &:hover {
             transform: scale(1.1) ;
             transition: 0.4s;
-        }
+        }*/
 
         .imagen-1{
             width: 300px;
@@ -81,10 +85,10 @@ main {
         border: 1px solid rgb(149, 145, 145);
         border-radius: 5px;
 
-        &:hover {
+      /*  &:hover {
             transform: scale(1.1) ;
             transition: 0.4s;
-        }
+        }*/
 
         .map{
             width: 300px;
@@ -111,10 +115,10 @@ main {
         border-radius: 5px;
         margin-right: 2rem;
 
-        &:hover {
+       /* &:hover {
             transform: scale(1.1) ;
             transition: 0.4s;
-        }
+        }*/
         
         .imagen-3{
             width: 300px;
@@ -260,6 +264,10 @@ main {
     
 }
 
+
+
+ @-webkit-keyframes slide-in-fwd-center{0%{-webkit-transform:translateZ(-1400px);transform:translateZ(-1400px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
+ @keyframes slide-in-fwd-center{0%{-webkit-transform:translateZ(-1400px);transform:translateZ(-1400px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
 
 @import "../scss/partials/mq";
 

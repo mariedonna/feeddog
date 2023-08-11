@@ -67,6 +67,7 @@ main .perro-solo {
 }
 
 .columnas {
+  animation: slide-in-fwd-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   display: flex;
   flex-direction: row;
   margin-left: 2rem;
@@ -81,10 +82,10 @@ main .perro-solo {
   background-color: white;
   border: 1px solid rgb(149, 145, 145);
   border-radius: 5px;
-}
-.columnas .columna1:hover {
-  transform: scale(1.1);
-  transition: 0.4s;
+  /* &:hover {
+       transform: scale(1.1) ;
+       transition: 0.4s;
+   }*/
 }
 .columnas .columna1 .imagen-1 {
   width: 300px;
@@ -106,10 +107,10 @@ main .perro-solo {
   background-color: white;
   border: 1px solid rgb(149, 145, 145);
   border-radius: 5px;
-}
-.columnas .columna2:hover {
-  transform: scale(1.1);
-  transition: 0.4s;
+  /*  &:hover {
+        transform: scale(1.1) ;
+        transition: 0.4s;
+    }*/
 }
 .columnas .columna2 .map {
   width: 300px;
@@ -133,10 +134,10 @@ main .perro-solo {
   border: 1px solid rgb(149, 145, 145);
   border-radius: 5px;
   margin-right: 2rem;
-}
-.columnas .columna3:hover {
-  transform: scale(1.1);
-  transition: 0.4s;
+  /* &:hover {
+       transform: scale(1.1) ;
+       transition: 0.4s;
+   }*/
 }
 .columnas .columna3 .imagen-3 {
   width: 300px;
@@ -259,7 +260,16 @@ main .perro-solo {
   display: flex;
   flex-direction: column;
 }
-
+@keyframes slide-in-fwd-center {
+  0% {
+    transform: translateZ(-1400px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
 @media (max-width: 400px) {
   .menu {
     font-size: 12px;
