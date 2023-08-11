@@ -38,7 +38,7 @@ main {
     margin: 1rem;
 }
 .columnas{
-    animation:slide-in-fwd-center .4s cubic-bezier(.25,.46,.45,.94) both;
+    -webkit-animation:slide-in-fwd-center .4s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-fwd-center .4s cubic-bezier(.25,.46,.45,.94) both;
 
     display:flex;
     flex-direction: row;
