@@ -260,6 +260,7 @@ main .perro-solo {
   display: flex;
   flex-direction: column;
 }
+
 @keyframes slide-in-fwd-center {
   0% {
     transform: translateZ(-1400px);
