@@ -67,7 +67,6 @@ main .perro-solo {
 }
 
 .columnas {
-  animation: slide-in-fwd-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   display: flex;
   flex-direction: row;
   margin-left: 2rem;
@@ -77,6 +76,19 @@ main .perro-solo {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+.columnas:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+.columnas .columnas1 {
+  animation-delay: 1s;
+}
+.columnas .columnas2 {
+  animation-delay: 2s;
+}
+.columnas .columnas3 {
+  animation-delay: 3s;
 }
 .columnas .columna1 {
   background-color: white;
@@ -261,16 +273,6 @@ main .perro-solo {
   flex-direction: column;
 }
 
-@keyframes slide-in-fwd-center {
-  0% {
-    transform: translateZ(-1400px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateZ(0);
-    opacity: 1;
-  }
-}
 @media (max-width: 400px) {
   .menu {
     font-size: 12px;
