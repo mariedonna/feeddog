@@ -77,17 +77,34 @@ main .perro-solo {
   align-items: center;
   flex-wrap: wrap;
 }
-.columnas:hover {
+.columnas:hover .columnas1 {
   transform: scale(1.1);
   transition: 0.4s;
+  transition-delay: 1s;
+}
+.columnas:hover .columnas2 {
+  transform: scale(1.1);
+  transition: 0.4s;
+  transition-delay: 2s;
+}
+.columnas:hover .columnas3 {
+  transform: scale(1.1);
+  transition: 0.4s;
+  transition-delay: 3s;
 }
 .columnas .columnas1 {
+  transform: scale 1.1;
+  transition: 0.4s;
   animation-delay: 1s;
 }
 .columnas .columnas2 {
+  transform: scale 1.1;
+  transition: 0.4s;
   animation-delay: 2s;
 }
 .columnas .columnas3 {
+  transform: scale 1.1;
+  transition: 0.4s;
   animation-delay: 3s;
 }
 .columnas .columnas1 {

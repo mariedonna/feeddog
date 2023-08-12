@@ -47,12 +47,30 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-      &:hover {
-            transform: scale(1.1) ;
-            transition: 0.4s;
-        }
+
+    &:hover .columnas1{
+        transform: scale(1.1);
+        transition: 0.4s;
+        transition-delay: 1s;
+      }
+      
+      &:hover .columnas2{
+        transform: scale(1.1);
+        transition: 0.4s;
+        transition-delay: 2s;
+      }
+      
+      
+      &:hover .columnas3{
+        transform: scale(1.1);
+        transition: 0.4s;
+        transition-delay: 3s;
+      }
+
         @for $columna from 1 through 3 {
             .columnas#{$columna} {
+                transform: scale (1.1);
+                transition: 0.4s;
                 animation-delay: $columna*1s;
             }
         }
