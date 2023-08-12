@@ -90,7 +90,7 @@ main .perro-solo {
 .columnas .columnas3 {
   animation-delay: 3s;
 }
-.columnas .columna1 {
+.columnas .columnas1 {
   background-color: white;
   border: 1px solid rgb(149, 145, 145);
   border-radius: 5px;
@@ -99,23 +99,23 @@ main .perro-solo {
        transition: 0.4s;
    }*/
 }
-.columnas .columna1 .imagen-1 {
+.columnas .columnas1 .imagen-1 {
   width: 300px;
   padding: 1rem;
 }
-.columnas .columna1 .parrafo-col {
+.columnas .columnas1 .parrafo-col {
   font-family: roboto;
   font-size: 16px;
   font-weight: bold;
   margin-left: 40px;
 }
-.columnas .columna1 .parrafo-chico {
+.columnas .columnas1 .parrafo-chico {
   font-family: roboto;
   font-size: 12px;
   margin-left: 5px;
   margin-right: 5px;
 }
-.columnas .columna2 {
+.columnas .columnas2 {
   background-color: white;
   border: 1px solid rgb(149, 145, 145);
   border-radius: 5px;
@@ -124,24 +124,24 @@ main .perro-solo {
         transition: 0.4s;
     }*/
 }
-.columnas .columna2 .map {
+.columnas .columnas2 .map {
   width: 300px;
   height: 200px;
   padding: 1rem;
 }
-.columnas .columna2 .parrafo-col {
+.columnas .columnas2 .parrafo-col {
   font-family: roboto;
   font-size: 16px;
   font-weight: bold;
   margin-left: 40px;
 }
-.columnas .columna2 .parrafo-chico {
+.columnas .columnas2 .parrafo-chico {
   font-family: roboto;
   font-size: 12px;
   margin-left: 5px;
   margin-right: 5px;
 }
-.columnas .columna3 {
+.columnas .columnas3 {
   background-color: white;
   border: 1px solid rgb(149, 145, 145);
   border-radius: 5px;
@@ -151,17 +151,17 @@ main .perro-solo {
        transition: 0.4s;
    }*/
 }
-.columnas .columna3 .imagen-3 {
+.columnas .columnas3 .imagen-3 {
   width: 300px;
   padding: 1rem;
 }
-.columnas .columna3 .parrafo-col {
+.columnas .columnas3 .parrafo-col {
   font-family: roboto;
   font-size: 16px;
   font-weight: bold;
   margin-left: 40px;
 }
-.columnas .columna3 .parrafo-chico {
+.columnas .columnas3 .parrafo-chico {
   font-family: roboto;
   font-size: 12px;
   margin-left: 5px;
