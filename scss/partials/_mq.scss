@@ -33,7 +33,7 @@ main .logo{
 }
 } 
 @media (max-width:800px){
-.intro{
+.articulo1 .intro{
     display:flex;
     flex-direction: row;
     gap: 1rem;
@@ -49,7 +49,7 @@ main .logo{
     gap:1rem;
     
 }
-.leyenda{
+.articulo1 .intro_info .leyenda{
     font-size: 12px;
 }
 .copyright{
